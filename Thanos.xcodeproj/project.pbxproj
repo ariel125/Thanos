@@ -15,9 +15,22 @@
 		B051C92B22738C53006A029C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B051C92922738C53006A029C /* Main.storyboard */; };
 		B051C92D22738C53006A029C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B051C92C22738C53006A029C /* Assets.xcassets */; };
 		B051C93022738C53006A029C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B051C92E22738C53006A029C /* LaunchScreen.storyboard */; };
+		B051C93A22743AB4006A029C /* SpriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051C93922743AB4006A029C /* SpriteSheet.swift */; };
+		B051C93E22744285006A029C /* magic.sks in Resources */ = {isa = PBXBuildFile; fileRef = B051C93D22744285006A029C /* magic.sks */; };
+		B051C9422274786B006A029C /* thanos_snap.png in Resources */ = {isa = PBXBuildFile; fileRef = B051C93F2274786B006A029C /* thanos_snap.png */; };
+		B051C9432274786B006A029C /* thanos_idle.png in Resources */ = {isa = PBXBuildFile; fileRef = B051C9402274786B006A029C /* thanos_idle.png */; };
+		B051C9442274786B006A029C /* thanos_time.png in Resources */ = {isa = PBXBuildFile; fileRef = B051C9412274786B006A029C /* thanos_time.png */; };
+		B051C9462274A13B006A029C /* vanish.sks in Resources */ = {isa = PBXBuildFile; fileRef = B051C9452274A13B006A029C /* vanish.sks */; };
+		B09932DB2274B0D5002C53A0 /* DisintegrationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09932D82274B0D5002C53A0 /* DisintegrationDirection.swift */; };
+		B09932DC2274B0D5002C53A0 /* UIView+Disintegrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09932D92274B0D5002C53A0 /* UIView+Disintegrate.swift */; };
+		B09932DD2274B0D5002C53A0 /* CALayer+Disintegrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09932DA2274B0D5002C53A0 /* CALayer+Disintegrate.swift */; };
+		B38D519439AB017559C7362E /* Pods_Thanos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F83E1B22AC48BC28DCDC7C1 /* Pods_Thanos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6129B14D167A61909961FA /* Pods-Thanos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thanos.debug.xcconfig"; path = "Target Support Files/Pods-Thanos/Pods-Thanos.debug.xcconfig"; sourceTree = "<group>"; };
+		4F83E1B22AC48BC28DCDC7C1 /* Pods_Thanos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thanos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECA851E2DDA3B85F07CB7A1 /* Pods-Thanos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thanos.release.xcconfig"; path = "Target Support Files/Pods-Thanos/Pods-Thanos.release.xcconfig"; sourceTree = "<group>"; };
 		B051C91C22738C53006A029C /* Thanos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thanos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B051C91F22738C53006A029C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B051C92122738C53006A029C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +41,15 @@
 		B051C92C22738C53006A029C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B051C92F22738C53006A029C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B051C93122738C53006A029C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B051C93922743AB4006A029C /* SpriteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSheet.swift; sourceTree = "<group>"; };
+		B051C93D22744285006A029C /* magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = magic.sks; sourceTree = "<group>"; };
+		B051C93F2274786B006A029C /* thanos_snap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thanos_snap.png; sourceTree = "<group>"; };
+		B051C9402274786B006A029C /* thanos_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thanos_idle.png; sourceTree = "<group>"; };
+		B051C9412274786B006A029C /* thanos_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thanos_time.png; sourceTree = "<group>"; };
+		B051C9452274A13B006A029C /* vanish.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = vanish.sks; sourceTree = "<group>"; };
+		B09932D82274B0D5002C53A0 /* DisintegrationDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisintegrationDirection.swift; sourceTree = "<group>"; };
+		B09932D92274B0D5002C53A0 /* UIView+Disintegrate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Disintegrate.swift"; sourceTree = "<group>"; };
+		B09932DA2274B0D5002C53A0 /* CALayer+Disintegrate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Disintegrate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38D519439AB017559C7362E /* Pods_Thanos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1446B6977B35D8F557E57C96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E6129B14D167A61909961FA /* Pods-Thanos.debug.xcconfig */,
+				9ECA851E2DDA3B85F07CB7A1 /* Pods-Thanos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B051C91322738C52006A029C = {
 			isa = PBXGroup;
 			children = (
 				B051C91E22738C53006A029C /* Thanos */,
 				B051C91D22738C53006A029C /* Products */,
+				B051C9402274786B006A029C /* thanos_idle.png */,
+				B051C93F2274786B006A029C /* thanos_snap.png */,
+				B051C9412274786B006A029C /* thanos_time.png */,
+				1446B6977B35D8F557E57C96 /* Pods */,
+				C1D9B4BDFA8EDA6F097A2998 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +97,31 @@
 		B051C91E22738C53006A029C /* Thanos */ = {
 			isa = PBXGroup;
 			children = (
+				B09932DA2274B0D5002C53A0 /* CALayer+Disintegrate.swift */,
+				B09932D82274B0D5002C53A0 /* DisintegrationDirection.swift */,
+				B09932D92274B0D5002C53A0 /* UIView+Disintegrate.swift */,
 				B051C91F22738C53006A029C /* AppDelegate.swift */,
 				B051C92122738C53006A029C /* GameScene.sks */,
 				B051C92322738C53006A029C /* Actions.sks */,
 				B051C92522738C53006A029C /* GameScene.swift */,
+				B051C9452274A13B006A029C /* vanish.sks */,
 				B051C92722738C53006A029C /* GameViewController.swift */,
 				B051C92922738C53006A029C /* Main.storyboard */,
 				B051C92C22738C53006A029C /* Assets.xcassets */,
 				B051C92E22738C53006A029C /* LaunchScreen.storyboard */,
 				B051C93122738C53006A029C /* Info.plist */,
+				B051C93922743AB4006A029C /* SpriteSheet.swift */,
+				B051C93D22744285006A029C /* magic.sks */,
 			);
 			path = Thanos;
+			sourceTree = "<group>";
+		};
+		C1D9B4BDFA8EDA6F097A2998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F83E1B22AC48BC28DCDC7C1 /* Pods_Thanos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B051C93422738C53006A029C /* Build configuration list for PBXNativeTarget "Thanos" */;
 			buildPhases = (
+				D632AF588D88EEB9B41BB6FE /* [CP] Check Pods Manifest.lock */,
 				B051C91822738C53006A029C /* Sources */,
 				B051C91922738C53006A029C /* Frameworks */,
 				B051C91A22738C53006A029C /* Resources */,
+				577627662D53E46C9C12489C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,23 +185,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				B051C92B22738C53006A029C /* Main.storyboard in Resources */,
+				B051C9422274786B006A029C /* thanos_snap.png in Resources */,
 				B051C92222738C53006A029C /* GameScene.sks in Resources */,
 				B051C92D22738C53006A029C /* Assets.xcassets in Resources */,
+				B051C9432274786B006A029C /* thanos_idle.png in Resources */,
+				B051C93E22744285006A029C /* magic.sks in Resources */,
+				B051C9442274786B006A029C /* thanos_time.png in Resources */,
 				B051C93022738C53006A029C /* LaunchScreen.storyboard in Resources */,
+				B051C9462274A13B006A029C /* vanish.sks in Resources */,
 				B051C92422738C53006A029C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		577627662D53E46C9C12489C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thanos/Pods-Thanos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Disintegrate/Disintegrate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disintegrate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Thanos/Pods-Thanos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D632AF588D88EEB9B41BB6FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thanos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B051C91822738C53006A029C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09932DD2274B0D5002C53A0 /* CALayer+Disintegrate.swift in Sources */,
+				B051C93A22743AB4006A029C /* SpriteSheet.swift in Sources */,
 				B051C92622738C53006A029C /* GameScene.swift in Sources */,
 				B051C92822738C53006A029C /* GameViewController.swift in Sources */,
 				B051C92022738C53006A029C /* AppDelegate.swift in Sources */,
+				B09932DB2274B0D5002C53A0 /* DisintegrationDirection.swift in Sources */,
+				B09932DC2274B0D5002C53A0 /* UIView+Disintegrate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +401,12 @@
 		};
 		B051C93522738C53006A029C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6129B14D167A61909961FA /* Pods-Thanos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64859MXSH;
 				INFOPLIST_FILE = Thanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.poochai.Thanos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,9 +422,12 @@
 		};
 		B051C93622738C53006A029C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECA851E2DDA3B85F07CB7A1 /* Pods-Thanos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64859MXSH;
 				INFOPLIST_FILE = Thanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,6 +435,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.poochai.Thanos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
